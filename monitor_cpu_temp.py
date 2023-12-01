@@ -15,7 +15,7 @@ def send_post_request():
         cpu_temperature = raw_temperature.replace("temp=", "").replace("'C", "")
 
         payload = {
-            "id": 4,
+            "id": 5,
             "private_key": "CoSXhiVyz6XRygLLwfd8",
             "current_task": "monitoring cpu temp",
             "data": cpu_temperature,
